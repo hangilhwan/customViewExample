@@ -9,5 +9,8 @@
     <string name="word_first">Word_First </string>
     <string name="word_second">Word_Second </string>
     <string name="word_third">Word_Third </string>
+    <string name="word_ok">Ok</string>
+    <string name="word_dog1">Dog1</string>
+    <string name="word_dog2">Dog2</string>
 
 </resources>

@@ -3,11 +3,15 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/FirstFragment">
+    app:startDestination="@id/constraintLayoutExampleFragment">
 
     <fragment
         android:id="@+id/FirstFragment"
         android:name="com.ghhan.customviewexample.CustomViewExampleFragment"
         android:label="@string/first_fragment_label"
         tools:layout="@layout/fragment_first"/>
+    <fragment
+        android:id="@+id/constraintLayoutExampleFragment"
+        android:name="com.ghhan.customviewexample.ConstraintLayoutExampleFragment"
+        android:label="ConstraintLayoutExampleFragment" />
 </navigation>
