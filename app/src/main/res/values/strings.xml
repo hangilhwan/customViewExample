@@ -16,5 +16,14 @@
     <!-- item   -->
     <string name="item_first">CustomView</string>
     <string name="item_second">ConstraintLayout</string>
+    <string name="item_third">Litener</string>
+
+    <!--    -->
+    <string name="listener_button">button</string>
+    <string name="listener_post_num_1">000</string>
+    <string name="listener_post_num_2">0000</string>
+    <string name="listener_radio1">radio1</string>
+    <string name="listener_radio2">radio2</string>
+    <string name="listener_seeker_init">0</string>
 
 </resources>

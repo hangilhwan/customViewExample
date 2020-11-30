@@ -24,5 +24,12 @@
         <action
             android:id="@+id/action_listFragment_to_constraintLayoutExampleFragment"
             app:destination="@id/constraintLayoutExampleFragment" />
+        <action
+            android:id="@+id/action_listFragment_to_listenerFragment"
+            app:destination="@id/listenerFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/listenerFragment"
+        android:name="com.ghhan.customviewexample.ListenerFragment"
+        android:label="ListenerFragment" />
 </navigation>

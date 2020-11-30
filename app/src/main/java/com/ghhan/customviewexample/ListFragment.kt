@@ -31,7 +31,7 @@ class ListFragment : Fragment() {
          */
         firstItem.setOnClickListener {
             //action_listFragment_to_FirstFragment = defined in navigation.nav_graph.xml
-            //navigate is understand backkey action
+            //do not need to defined backKey action when navigate is used
             this.findNavController().navigate(R.id.action_listFragment_to_FirstFragment)
         }
 
@@ -45,7 +45,11 @@ class ListFragment : Fragment() {
         /**
          * --end--
          */
-
+        thirdItem.setOnClickListener {
+            //action_listFragment_to_FirstFragment = defined in navigation.nav_graph.xml
+            //do not need to defined backKey action when navigate is used
+            this.findNavController().navigate(R.id.action_listFragment_to_listenerFragment)
+        }
 
     }
 }
