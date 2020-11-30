@@ -3,6 +3,13 @@
 ※開発環境
 AndroidStudio4.0.1, Kotlin
 
+＃３
+2020/12/01
+概要
+よく使うAndroioのListner
+
+確認Point：ListnerFragmentの追加、ListFragment（一覧）の追加
+
 ＃２
 2020/11/01
 概要
