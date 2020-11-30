@@ -13,4 +13,8 @@
     <string name="word_dog1">Dog1</string>
     <string name="word_dog2">Dog2</string>
 
+    <!-- item   -->
+    <string name="item_first">CustomView</string>
+    <string name="item_second">ConstraintLayout</string>
+
 </resources>
