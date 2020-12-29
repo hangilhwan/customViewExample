@@ -27,9 +27,16 @@
         <action
             android:id="@+id/action_listFragment_to_listenerFragment"
             app:destination="@id/listenerFragment" />
+        <action
+            android:id="@+id/action_listFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
     </fragment>
     <fragment
         android:id="@+id/listenerFragment"
         android:name="com.ghhan.customviewexample.ListenerFragment"
         android:label="ListenerFragment" />
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.ghhan.customviewexample.LoginFragment"
+        android:label="LoginFragment" />
 </navigation>

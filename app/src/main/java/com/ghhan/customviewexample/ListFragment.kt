@@ -41,7 +41,6 @@ class ListFragment : Fragment() {
          * --start--
          */
 
-
         /**
          * --end--
          */
@@ -51,5 +50,10 @@ class ListFragment : Fragment() {
             this.findNavController().navigate(R.id.action_listFragment_to_listenerFragment)
         }
 
+        loginItem.setOnClickListener {
+            //action_listFragment_to_FirstFragment = defined in navigation.nav_graph.xml
+            //do not need to defined backKey action when navigate is used
+            this.findNavController().navigate(R.id.action_listFragment_to_loginFragment)
+        }
     }
 }

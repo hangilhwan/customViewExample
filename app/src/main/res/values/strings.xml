@@ -17,13 +17,20 @@
     <string name="item_first">CustomView</string>
     <string name="item_second">ConstraintLayout</string>
     <string name="item_third">Litener</string>
+    <string name="item_login">Login</string>
 
-    <!--    -->
     <string name="listener_button">button</string>
     <string name="listener_post_num_1">000</string>
     <string name="listener_post_num_2">0000</string>
     <string name="listener_radio1">radio1</string>
     <string name="listener_radio2">radio2</string>
     <string name="listener_seeker_init">0</string>
+
+    <string name="login_email_hint">E-mail</string>
+    <string name="login_password_hint">Password</string>
+    <string name="login_login">Login</string>
+    <string name="login_link_sign_up">No account yet?</string>
+    <string name="login_Authenticating">Authenticating.</string>
+
 
 </resources>
