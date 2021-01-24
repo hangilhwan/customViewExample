@@ -16,8 +16,9 @@
     <!-- item   -->
     <string name="item_first">CustomView</string>
     <string name="item_second">ConstraintLayout</string>
-    <string name="item_third">Litener</string>
+    <string name="item_third">Listener</string>
     <string name="item_login">Login</string>
+    <string name="item_tips">Tips</string>
 
     <string name="listener_button">button</string>
     <string name="listener_post_num_1">000</string>

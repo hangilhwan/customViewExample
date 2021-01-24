@@ -1,9 +1,7 @@
 package com.ghhan.customviewexample
 
-import android.content.res.Resources
+import android.net.Uri
 
-/**
- * imageResources : Image情報
- * text : text情報
- */
-data class CustomItem(val imageResources: Int, val text : String)
+data class CustomItem(val imageResources: Int, val text: String)
+
+data class TipsItem(val text: String, val url: String)

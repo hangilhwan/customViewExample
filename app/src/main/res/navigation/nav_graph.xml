@@ -30,6 +30,9 @@
         <action
             android:id="@+id/action_listFragment_to_loginFragment"
             app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_listFragment_to_tipsFragment"
+            app:destination="@id/tipsFragment" />
     </fragment>
     <fragment
         android:id="@+id/listenerFragment"
@@ -39,4 +42,8 @@
         android:id="@+id/loginFragment"
         android:name="com.ghhan.customviewexample.LoginFragment"
         android:label="LoginFragment" />
+    <fragment
+        android:id="@+id/tipsFragment"
+        android:name="com.ghhan.customviewexample.TipsFragment"
+        android:label="TipsFragment" />
 </navigation>
