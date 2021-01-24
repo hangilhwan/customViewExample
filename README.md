@@ -2,6 +2,12 @@
 
 ※開発環境
 AndroidStudio4.0.1, Kotlin
+＃４
+2020/12/29
+概要
+ログイン画面を作ってみよう
+
+確認Point：loginFragment（一覧）の追加
 
 ＃３
 2020/12/01
