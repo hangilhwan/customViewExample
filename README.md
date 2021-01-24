@@ -2,6 +2,13 @@
 
 ※開発環境
 AndroidStudio4.0.1, Kotlin
+#5
+2020/01/24
+概要
+よく使うサイトのまとめの追加
+
+確認Point：TipsFragmentの追加
+
 ＃４
 2020/12/29
 概要
